@@ -1,12 +1,14 @@
 package mx.iteso.strategy;
 
 import mx.iteso.strategy.behaviors.BounceBehavior;
+import mx.iteso.strategy.behaviors.CaptureBehavior;
 import mx.iteso.strategy.behaviors.DeflateBehavior;
 
 public abstract class Ball {
 
     public BounceBehavior bounceBehavior;
     public DeflateBehavior deflateBehavior;
+    public CaptureBehavior captureBehavior;
     public String type;
 
     public Ball() {
@@ -43,5 +45,9 @@ public abstract class Ball {
     public String performInflate() {
         return deflateBehavior.inflate();
     }
+
+    public String performCapture() { return captureBehavior.capture(); }
+
+    public String performRelease() { return captureBehavior.release(); }
 
 }
