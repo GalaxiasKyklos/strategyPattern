@@ -12,6 +12,22 @@ public abstract class Ball {
     public Ball() {
     }
 
+    public void setBounceBehavior(BounceBehavior bounceBehavior) {
+        this.bounceBehavior = bounceBehavior;
+    }
+
+    public void setDeflateBehavior(DeflateBehavior deflateBehavior) {
+        this.deflateBehavior = deflateBehavior;
+    }
+
+    public BounceBehavior getBounceBehavior() {
+        return this.bounceBehavior;
+    }
+
+    public DeflateBehavior getDeflateBehavior() {
+        return this.deflateBehavior;
+    }
+
     public String roll() {
         return type + " is rolling!";
     }
