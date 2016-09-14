@@ -1,4 +1,4 @@
-package mx.iteso.strategy.balls;
+package mx.iteso.strategy.behaviors.impl;
 
 import mx.iteso.strategy.behaviors.CaptureBehavior;
 

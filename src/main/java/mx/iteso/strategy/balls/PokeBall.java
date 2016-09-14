@@ -1,6 +1,7 @@
 package mx.iteso.strategy.balls;
 
 import mx.iteso.strategy.Ball;
+import mx.iteso.strategy.behaviors.impl.CanCapture;
 import mx.iteso.strategy.behaviors.impl.NormalBounce;
 import mx.iteso.strategy.behaviors.impl.NotDeflatable;
 
@@ -11,6 +12,7 @@ public class PokeBall extends Ball {
     public PokeBall() {
         bounceBehavior =  new NormalBounce();
         deflateBehavior = new NotDeflatable();
+        captureBehavior = new CanCapture();
         type = "PokeBall ball";
     }
 }
