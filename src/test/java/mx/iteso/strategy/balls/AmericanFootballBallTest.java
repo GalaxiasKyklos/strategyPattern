@@ -1,7 +1,5 @@
 package mx.iteso.strategy.balls;
 
-import mx.iteso.strategy.behaviors.CaptureBehavior;
-import mx.iteso.strategy.behaviors.impl.CanCapture;
 import mx.iteso.strategy.behaviors.impl.CannotCapture;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +8,6 @@ import static org.junit.Assert.assertEquals;
 
 public class AmericanFootballBallTest {
     public AmericanFootballBall americanFootballBall;
-
 
     @Before
     public void setUp() {
