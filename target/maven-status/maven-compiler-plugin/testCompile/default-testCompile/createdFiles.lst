@@ -1,0 +1,17 @@
+mx\iteso\strategy\behaviors\impl\CanFloatTest.class
+mx\iteso\strategy\lifesavers\SwimRingTest.class
+mx\iteso\strategy\balls\BilliardBallTest.class
+mx\iteso\strategy\lifesavers\LifesaverCandiesTest.class
+mx\iteso\strategy\balls\PokeBallTest.class
+mx\iteso\strategy\lifesavers\SwimBeltsTest.class
+mx\iteso\strategy\balls\SoccerBallTest.class
+mx\iteso\strategy\behaviors\impl\CannotFloatTest.class
+mx\iteso\strategy\lifesavers\ArmBandsTest.class
+mx\iteso\strategy\balls\TennisBallTest.class
+mx\iteso\strategy\lifesavers\WaterTubesTest.class
+mx\iteso\strategy\balls\VolleyBallTest.class
+mx\iteso\strategy\lifesavers\SwimSeatTest.class
+mx\iteso\strategy\balls\BaseballBallTest.class
+mx\iteso\strategy\lifesavers\FoamFloatsTest.class
+mx\iteso\strategy\balls\BasketBallBallTest.class
+mx\iteso\strategy\lifesavers\LifeVestsTest.class

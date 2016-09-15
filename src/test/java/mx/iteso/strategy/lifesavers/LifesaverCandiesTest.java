@@ -37,7 +37,7 @@ public class LifesaverCandiesTest {
 
     @Test
     public void rollTest() {
-        assertEquals("I'm a Lifesaver Candies", lifesaverCandies.display());
+        assertEquals("I'm a Lifesaver Candy", lifesaverCandies.display());
     }
 
 }

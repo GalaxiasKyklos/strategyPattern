@@ -46,7 +46,7 @@ public class VolleyBallTest {
 
     @Test
     public void rollTest() {
-        assertEquals("VolleyBall is rolling!", volleyBall.roll());
+        assertEquals("VolleyBall ball is rolling!", volleyBall.roll());
     }
 }
 

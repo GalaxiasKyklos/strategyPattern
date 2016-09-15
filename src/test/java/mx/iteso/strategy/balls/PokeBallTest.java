@@ -29,7 +29,7 @@ public class PokeBallTest {
 
     @Test
     public void inflateTest() {
-        assertEquals(Deflatable.INFLATE, pokeBall.performInflate());
+        assertEquals(NotDeflatable.INFLATE, pokeBall.performInflate());
     }
 
     @Test
@@ -44,7 +44,7 @@ public class PokeBallTest {
 
     @Test
     public void rollTest() {
-        assertEquals("Pokeball is rolling!", pokeBall.roll());
+        assertEquals("PokeBall ball is rolling!", pokeBall.roll());
     }
 }
 

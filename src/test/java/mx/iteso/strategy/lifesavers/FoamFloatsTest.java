@@ -35,7 +35,7 @@ public class FoamFloatsTest {
 
     @Test
     public void rollTest() {
-        assertEquals("I'm a Foam floats", foamFloats.display());
+        assertEquals("I'm a Foam Floats", foamFloats.display());
     }
 
 }

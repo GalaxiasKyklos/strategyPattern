@@ -11,6 +11,6 @@ public class FoamFloats extends Lifesaver {
     public FoamFloats() {
         deflateBehavior = new NotDeflatable();
         flotationCapacity = new CanFloat();
-        type = "Foam Float";
+        type = "Foam Floats";
     }
 }

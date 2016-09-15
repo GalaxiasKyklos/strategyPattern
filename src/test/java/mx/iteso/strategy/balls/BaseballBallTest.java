@@ -1,8 +1,8 @@
 package mx.iteso.strategy.balls;
 
 import mx.iteso.strategy.behaviors.impl.CannotCapture;
-import mx.iteso.strategy.behaviors.impl.Deflatable;
 import mx.iteso.strategy.behaviors.impl.IrregularBounce;
+import mx.iteso.strategy.behaviors.impl.NotDeflatable;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -26,12 +26,12 @@ public class BaseballBallTest {
 
     @Test
     public void deflateTest() {
-        assertEquals(Deflatable.DEFLATE, baseballBall.performDeflate());
+        assertEquals(NotDeflatable.DEFLATE, baseballBall.performDeflate());
     }
 
     @Test
     public void inflateTest() {
-        assertEquals(Deflatable.INFLATE, baseballBall.performInflate());
+        assertEquals(NotDeflatable.INFLATE, baseballBall.performInflate());
     }
 
     @Test
@@ -46,6 +46,6 @@ public class BaseballBallTest {
 
     @Test
     public void rollTest() {
-        assertEquals("BaseBall ball is rolling!", baseballBall.roll());
+        assertEquals("Baseball ball is rolling!", baseballBall.roll());
     }
 }

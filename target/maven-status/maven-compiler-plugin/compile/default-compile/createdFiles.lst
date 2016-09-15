@@ -1,4 +1,5 @@
 mx\iteso\strategy\lifesavers\LifeVests.class
+mx\iteso\strategy\lifesavers\LifesaverCandies.class
 mx\iteso\strategy\lifesavers\WaterTubes.class
 mx\iteso\strategy\lifesavers\SwimRing.class
 mx\iteso\strategy\lifesavers\FoamFloats.class

@@ -34,7 +34,7 @@ public class WaterTubesTest {
 
     @Test
     public void rollTest() {
-        assertEquals("I'm a Water Tubes", waterTubes.display());
+        assertEquals("I'm a Water Tube", waterTubes.display());
     }
 
 }

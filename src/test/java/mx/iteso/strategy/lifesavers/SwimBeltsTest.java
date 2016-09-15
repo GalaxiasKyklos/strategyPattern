@@ -35,7 +35,7 @@ public class SwimBeltsTest {
 
     @Test
     public void rollTest() {
-        assertEquals("I'm a Swim Belts", swimBelts.display());
+        assertEquals("I'm a Swim Belt", swimBelts.display());
     }
 
 }
