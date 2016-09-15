@@ -1,7 +1,6 @@
 package mx.iteso.strategy.lifesavers;
 
 import mx.iteso.strategy.behaviors.impl.CanFloat;
-import mx.iteso.strategy.behaviors.impl.Deflatable;
 import mx.iteso.strategy.behaviors.impl.NotDeflatable;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,10 +1,7 @@
 package mx.iteso.strategy.lifesavers;
 
-import mx.iteso.strategy.balls.VolleyBall;
 import mx.iteso.strategy.behaviors.impl.CanFloat;
-import mx.iteso.strategy.behaviors.impl.CannotCapture;
 import mx.iteso.strategy.behaviors.impl.Deflatable;
-import mx.iteso.strategy.behaviors.impl.NormalBounce;
 import org.junit.Before;
 import org.junit.Test;
 

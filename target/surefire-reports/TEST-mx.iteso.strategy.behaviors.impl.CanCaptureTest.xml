@@ -65,6 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="mx.iteso.strategy.behaviors.impl.CanCaptureTest" name="captureTest" time="0"/>
   <testcase classname="mx.iteso.strategy.behaviors.impl.CanCaptureTest" name="releaseTest" time="0"/>
+  <testcase classname="mx.iteso.strategy.behaviors.impl.CanCaptureTest" name="captureTest" time="0"/>
 </testsuite>

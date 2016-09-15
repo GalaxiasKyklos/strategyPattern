@@ -1,6 +1,6 @@
 package mx.iteso.strategy.behaviors.impl;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
