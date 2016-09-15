@@ -11,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class AmericanFootballBallTest {
     public AmericanFootballBall americanFootballBall;
 
+
     @Before
     public void setUp() {
         americanFootballBall = new AmericanFootballBall();
