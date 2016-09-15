@@ -1,6 +1,8 @@
 package mx.iteso.strategy.balls;
 
 import mx.iteso.strategy.behaviors.impl.CannotCapture;
+import mx.iteso.strategy.behaviors.impl.Deflatable;
+import mx.iteso.strategy.behaviors.impl.IrregularBounce;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,17 +21,17 @@ public class BaseballBallTest {
 
     @Test
     public void bounceTest() {
-        assertEquals("I'm bouncing irregularly!", baseballBall.performBounce());
+        assertEquals(IrregularBounce.BOUNCE, baseballBall.performBounce());
     }
 
     @Test
     public void deflateTest() {
-        assertEquals("I'm deflating!", baseballBall.performDeflate());
+        assertEquals(Deflatable.DEFLATE, baseballBall.performDeflate());
     }
 
     @Test
     public void inflateTest() {
-        assertEquals("I'm inflating!", baseballBall.performInflate());
+        assertEquals(Deflatable.INFLATE, baseballBall.performInflate());
     }
 
     @Test
