@@ -6,11 +6,13 @@ import mx.iteso.strategy.behaviors.CaptureBehavior;
  * Created by Saúl on 14/09/2016.
  */
 public class CannotCapture implements CaptureBehavior {
+    public static final String CAPTURE = "I cannot capture a pokemon";
+    public static final String RELEASE = "I cannot release a pokemon";
     public String capture() {
-        return "I cannot capture a pokemon";
+        return CAPTURE;
     }
 
     public String release() {
-        return "I cannot release a pokemon";
+        return RELEASE;
     }
 }

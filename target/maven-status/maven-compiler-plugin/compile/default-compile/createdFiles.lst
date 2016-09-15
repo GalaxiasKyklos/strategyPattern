@@ -1,0 +1,12 @@
+mx\iteso\strategy\lifesavers\LifeVests.class
+mx\iteso\strategy\lifesavers\WaterTubes.class
+mx\iteso\strategy\lifesavers\SwimRing.class
+mx\iteso\strategy\lifesavers\FoamFloats.class
+mx\iteso\strategy\behaviors\impl\CanFloat.class
+mx\iteso\strategy\Lifesaver.class
+mx\iteso\strategy\behaviors\impl\CannotFloat.class
+mx\iteso\JamaiconSportsLifesaversMain.class
+mx\iteso\strategy\lifesavers\SwimBelts.class
+mx\iteso\strategy\behaviors\FlotationCapacity.class
+mx\iteso\strategy\lifesavers\ArmBands.class
+mx\iteso\strategy\lifesavers\SwimSeat.class
